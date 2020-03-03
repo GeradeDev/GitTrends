@@ -20,6 +20,7 @@ namespace GitTrends
         public override Color NavigationBarTextColor { get; } = Color.FromHex(_offWhite);
 
         public override Color PageBackgroundColor { get; } = Color.FromHex(_lightBlueHex);
+        public override Color TrendsPageBackgroundColor { get; } = Color.FromHex(_offWhite);
 
         public override Color TextColor { get; } = Color.FromHex(_darkBlueHex);
 

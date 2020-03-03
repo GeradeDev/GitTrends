@@ -12,6 +12,7 @@ namespace GitTrends
             Add(nameof(NavigationBarTextColor), NavigationBarTextColor);
 
             Add(nameof(PageBackgroundColor), PageBackgroundColor);
+            Add(nameof(TrendsPageBackgroundColor), TrendsPageBackgroundColor);
 
             Add(nameof(TextColor), TextColor);
 
@@ -40,6 +41,7 @@ namespace GitTrends
         public abstract Color NavigationBarTextColor { get; }
 
         public abstract Color PageBackgroundColor { get; }
+        public abstract Color TrendsPageBackgroundColor { get; }
 
         public abstract Color TextColor { get; }
 

@@ -20,6 +20,9 @@ namespace GitTrends
         {
             _repository = repository;
 
+            RemoveDynamicResource(BackgroundColorProperty);
+            SetDynamicResource(BackgroundColorProperty, nameof(BaseTheme.TrendsPageBackgroundColor));
+
             var referringSitesToolbarItem = new ToolbarItem { Text = "Referring Sites" };
             referringSitesToolbarItem.Clicked += HandleReferringSitesToolbarItemClicked;
             ToolbarItems.Add(referringSitesToolbarItem);
